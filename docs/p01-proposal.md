@@ -46,7 +46,7 @@ _Problem Domain Citations_
 *  The second data set that we found are the different subscription fees that Netflix charges in each country. This is important to analyze as Netflix provides different movies for each country, so it is only deemed fair to charge differently across the world. This helps understand the economical aspect of Netflix and its impact on the world. It also gives us insight to how much of a profit Netlflix makes from a regular subscription versus a premium
 > Kanawattanachai, Prasert. “Netflix Subscription Fee in Different Countries.” Kaggle, 15 Jan. 2022, https://www.kaggle.com/datasets/prasertk/netflix-subscription-price-in-different-countries.
 
-* The author of this data set, Parsert Kanawattanachai collected this data to provide awareness to the fees of Netflix overall. This data set shows how Netflix can actually be cheaper in some countries (due to currency difference, and the difference in cost of living for some countries). There was no funding behind this dataset, however since it was found on Kaggle, a reputed website, therefore it is a valid source. It also updates yearly, meaning the data is fresh and current. Kaggle is a website that provides datasets for any searched term. There are many more different datas sets, however these two found could potentially be the most useful starting point in the project. 
+* The author of this data set, Parsert Kanawattanachai collected this data to provide awareness to the fees of Netflix overall. This data set shows how Netflix can actually be cheaper in some countries (due to currency difference, and the difference in cost of living for some countries). There was no funding behind this dataset, however since it was found on Kaggle, a reputed website, therefore it is a valid source. It also updates yearly, meaning the data is fresh and current. Kaggle is a website that provides datasets for any searched term. There are many more different datas sets, however these two found could potentially be the most useful starting point in the project.
 
 ### **Limitations (Medha)**
 Possible limitations include restrictions on what analysis can be conducted from the available data. Here are more listed below:
@@ -56,7 +56,7 @@ Possible limitations include restrictions on what analysis can be conducted from
   * There are much larger sociotechnical impacts on people and their lives, although Netflix and other available streaming content does have an effect
     * We want to help meet others' needs and preferences, but we are limited in the amount of impact we can make on others
   * Some data sets are private, and we cannot use those in our exploration
-
+# TESTING
 For what to do, see the [`../instructions/`](../instructions/) directory, specifically:
 
 * [Design Brief](../instructions/project-design-brief.pdf)
