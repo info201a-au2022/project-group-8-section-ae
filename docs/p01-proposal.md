@@ -74,13 +74,14 @@ _Problem Domain Citations_
 * The first data set provides us with the type of content Netflix offers for each country. It gives insight to all the directors, actors, and rankings of the tv show or movie. This data set has the knowledge to help us understand how vast and useful Netflix is.
 > Bansal, Shivam. “Netflix Movies and TV Shows.” Kaggle, 27 Sept. 2021, https://www.kaggle.com/datasets/shivamb/netflix-shows [kaggle.com].
 
-[dataset 1](https://github.com/info201a-au2022/project-group-8-section-ae/blob/main/Dataset%201.png)
+![dataset 1](https://github.com/info201a-au2022/project-group-8-section-ae/blob/main/Dataset%201.png)
 
 * The author of this dataset, Shivam Bansal, in 2020 provided this dataset to help show how Netflix recently has been focusing on tv shows rather than movies. They also mention how to understand what films and tv shows are available in different countries and how the network analysis of the actors and directors can be seen through this data set. The author is not going to benefit financially from this dataset. The website the data set was on was validated and was a reputed website that provides all kinds of different data sets; therefore, the information was safe/secure. This can be a great source to branch off with. It can help provide information that we can use to further search for datasets.
 
 *  The second data set that we found are the different subscription fees that Netflix charges in each country. This is important to analyze as Netflix provides different movies for each country, so it is only deemed fair to charge differently across the world. This helps understand the economical aspect of Netflix and its impact on the world. It also gives us insight to how much of a profit Netlflix makes from a regular subscription versus a premium
 > Kanawattanachai, Prasert. “Netflix Subscription Fee in Different Countries.” Kaggle, 15 Jan. 2022, https://www.kaggle.com/datasets/prasertk/netflix-subscription-price-in-different-countries [kaggle.com].
 
+![dataset 2](https://github.com/info201a-au2022/project-group-8-section-ae/blob/main/Dataset%202.png)
 * The author of this data set, Parsert Kanawattanachai collected this data to provide awareness to the fees of Netflix overall. This data set shows how Netflix can actually be cheaper in some countries (due to currency difference, and the difference in cost of living for some countries). There was no funding behind this dataset, however since it was found on Kaggle, a reputed website, therefore it is a valid source. It also updates yearly, meaning the data is fresh and current. Kaggle is a website that provides datasets for any searched term. There are many more different datasets, however these two found could potentially be the most useful starting point in the project.
 
 
