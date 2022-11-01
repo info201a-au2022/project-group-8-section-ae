@@ -1,4 +1,14 @@
-# Title of your Project: Project Proposal
+# Impact of Netflix on Human Connections
+#### Code name
+NetFlux
+#### Authors
+Lasya Suravajhela: lasya19@uw.edu
+Medha Rawat: mrawat@uw.edu
+Heena Vahora: vheena@uw.edu
+#### Affiliation
+INFO 201: Technical Foundations of Informatics - The Information School - University of Washington
+#### Date
+10/25/2022
 
 ### **Abstract**
 
@@ -58,7 +68,7 @@ _Problem Domain Citations_
 **What makes Netflix different from other streaming services?**
 
 * There are so many streaming services out there. Why do people choose Netflix? What makes them enjoy it over Hulu, Disney +, HBO Max, etc. This is all important to find out and motivates us to find out what it is that Netflix does that makes people happy.
-  
+
 ### **Dataset**
 
 * The first data set provides us with the type of content Netflix offers for each country. It gives insight to all the directors, actors, and rankings of the tv show or movie. This data set has the knowledge to help us understand how vast and useful Netflix is.
