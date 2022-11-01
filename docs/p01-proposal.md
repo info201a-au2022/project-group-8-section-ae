@@ -2,6 +2,11 @@
 
 **TODO**: Edit this file. Your project proposal goes here.
 
+### **Introduction**
+Our main focus is to understand the social and economic welfare due to Netflix. What movies are the peoples most favorite, what shows provided the most impact especially during recent times, and how much profit the company has made. Netflix is one of the biggest leading entertainment services in the world, meaning Netflix has a heavy impact on the economical aspect. It helps circulate money and provides people with one form of entertainment. Often, we use TV or movies as comfort to get us through difficult times. We plan to address the issue by demonstrating data that can help people emotionally, such as data about comfort shows. Data from multiple different countries will help us create a webpage that provides accurate and factual data. With Netflix changing lives everyday (socially and economically) it is helpful to understand the data, analyze it, and present it so that it can bring awareness to people’s lives.
+
+
+
 ### **Problem Domain (Medha)**
 
 _Human Values_
@@ -28,6 +33,20 @@ _Problem Domain Citations_
 * Similar paper: Dhiman and Malik, "Psychosocial Impact of Web Series and Streaming Content". https://www.globalmediajournal.com/open-access/psychosocial-impact-of-web-series-and-streaming-content-a-study-on-indian-youth.php?aid=90530
 * Netflix article: "Strategy Case Study series". https://www.linkedin.com/pulse/strategy-case-study-series-netflix-effect-leading-disruptive-carl-li
 * True Impact of Streaming: https://about.netflix.com/en/news/the-true-climate-impact-of-streaming
+
+### **Dataset**
+
+* The first data set provides us with the type of content Netflix offers for each country. It gives insight to all the directors, actors, and rankings of the tv show or movie. This data set has the knowledge to help us understand how vast and useful Netflix is.
+> Bansal, Shivam. “Netflix Movies and TV Shows.” Kaggle, 27 Sept. 2021, https://www.kaggle.com/datasets/shivamb/netflix-shows.
+
+
+
+* The author of this dataset, Shivam Bansal, in 2020 provided this dataset to help show how Netflix recently has been focusing on tv shows rather than movies. They also mention how to understand what films and tv shows are available in different countries and how the network analysis of the actors and directors can be seen through this data set. The author is not going to benefit financially from this dataset. The website the data set was on was validated and was a reputed website that provides all kinds of different data sets; therefore, the information was safe/secure. This can be a great source to branch off with. It can help provide information that we can use to further search for datasets.
+
+*  The second data set that we found are the different subscription fees that Netflix charges in each country. This is important to analyze as Netflix provides different movies for each country, so it is only deemed fair to charge differently across the world. This helps understand the economical aspect of Netflix and its impact on the world. It also gives us insight to how much of a profit Netlflix makes from a regular subscription versus a premium
+> Kanawattanachai, Prasert. “Netflix Subscription Fee in Different Countries.” Kaggle, 15 Jan. 2022, https://www.kaggle.com/datasets/prasertk/netflix-subscription-price-in-different-countries.
+
+* The author of this data set, Parsert Kanawattanachai collected this data to provide awareness to the fees of Netflix overall. This data set shows how Netflix can actually be cheaper in some countries (due to currency difference, and the difference in cost of living for some countries). There was no funding behind this dataset, however since it was found on Kaggle, a reputed website, therefore it is a valid source. It also updates yearly, meaning the data is fresh and current. Kaggle is a website that provides datasets for any searched term. There are many more different datas sets, however these two found could potentially be the most useful starting point in the project. 
 
 ### **Limitations (Medha)**
 Possible limitations include restrictions on what analysis can be conducted from the available data. Here are more listed below:
