@@ -19,13 +19,13 @@ _Direct and Indirect Stakeholders_
   Indirect stakeholders include those who may not use Netflix directly, such as founders, employees, and investors. They are affected by the effect of Netflix and its content on others, including monetary rewards and social impacts ("Strategy"). Additionally, as creators of the platform, they are impacted by the climate effect, and so are direct stakeholders, or any other inhabitant of the Earth ("True Impacts").
 _Possible Harms and Benefits_
   Although streamed content can bring people together, and be educational, there are possible harms to the availability of content online. Here are some, listed below:
-    * The amount of horror and dark content can be emotionally difficult for some people
-    * Content can be distracting from other responsibilities, resulting in distance (Dhiman and Malik)
-    * Readily content can be too vulgar and too in-depth for humans, for example the new Jeffrey Dahmer series
-      * Adding on to the point above, this is an example of when capitalism encourages valuing fame and money over acknowledging the wishes of victims' and their families
-    * Too many options and content can be overwhelming and distracting
-    * Can completely change your lifestyle (Dhiman and Malik)
-    However, there are many more possible benefits to be mentioned:
+* The amount of horror and dark content can be emotionally difficult for some people
+* Content can be distracting from other responsibilities, resulting in distance (Dhiman and Malik)
+* Readily content can be too vulgar and too in-depth for humans, for example the new Jeffrey Dahmer series
+* Adding on to the point above, this is an example of when capitalism encourages valuing fame and money over acknowledging the wishes of victims' and their families
+* Too many options and content can be overwhelming and distracting
+* Can completely change your lifestyle (Dhiman and Malik)
+However, there are many more possible benefits to be mentioned:
     * Easily available content can be used as a coping mechanism for those suffering with mental illness and other hardships
     * Softer shows can be comforting and educational
 
