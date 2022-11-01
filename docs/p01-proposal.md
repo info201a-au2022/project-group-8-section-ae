@@ -1,6 +1,16 @@
-# Title of your Project: Project Proposal
+# Impact of Netflix on Human Connections
+
 
 **TODO**: Edit this file. Your project proposal goes here.
+
+### **Abstract**
+
+Our main question is how does Netflix have an impact on the social and economical welfare in the world. This question is important because as there are so many streaming services many people could access, Netflix tends to stay at number 1. We will address these questions by breaking
+down the best qualities of Netflix and why it has people's grip.
+
+### **Keywords**
+Entertainment; Streaming Services; Human Values
+
 
 ### **Problem Domain (Medha)**
 
@@ -42,3 +52,22 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 
 * [Design Brief](../instructions/project-design-brief.pdf)
 * [Project Proposal Requirements](../instructions/p01-proposal-requirements.md)
+
+
+### **Research Questions**
+
+**What are some frustrations that come up with using different streaming services?**
+* This question is important because to know what makes Netflix special and why people choose Netflix, we have to understand people's frustrations to see if it’s something that Netflix or their competitors do. What motivates the questions is that if someone doesn't like something, they won't stay. So what is making people stay at Netflix?
+
+**How do people choose the best streaming service for themselves/ families? What do they take into consideration and what do you wish Netflix had that other streaming services do?**
+
+
+* This question is important to look into because Netflix offers different films for different audiences. We must understand what makes a person choose that platform for themselves or if they chose it for a family and why. What motivates the questions is seeing what age groups or audiences mainly use streaming services.
+
+**What types of films do people most enjoy watching?**
+
+* It is important to see what types of shows and movies people like watching because not every film is on the same service. By finding this out, we are able to see what keeps people connected to Netflix
+
+**What makes Netflix different from other streaming services?**
+
+* There are so many streaming services out there. Why do people choose Netflix? What makes them enjoy it over Hulu, Disney +, HBO Max, etc. This is all important to find out and motivates us to find out what it is that Netflix does that makes people happy.
