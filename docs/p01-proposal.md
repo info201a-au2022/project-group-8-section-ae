@@ -26,7 +26,7 @@ Our main focus is to understand the social and economic welfare due to Netflix. 
 
 _Human Values_
 
-  Our topic is the effect of Netflix and streamed content on the emotional and social lives of humans. In today's world, humans are deeply connected to each other through screens and content. Streaming movies and shows allows humans to spread and share information about different topics and scenarios. In this project, we want to study how the human values of being social, empathetic, and progressive, are all influenced by content online. An example is how people connected online through the pandemic using Netflix Party, now known as Teleparty. The chat features, along with being able to stream content simultaneously, allowed for connectivity and comfort. Humans naturally want to thrive and be educated, and a result is we stream content for entertainment and to better our knowledge. This could be watching a documentary on Netflix or a tutorial on YouTube.
+  Our topic is the effect of Netflix and streamed content on the emotional and social lives of humans. In today's world, humans are deeply connected to each other through screens and content. Streaming movies and shows allows humans to spread and share information about different topics and scenarios. In this project, we want to study how the human values of being social, empathetic, and progressive, are all influenced by content online. An example is how people connected online through the pandemic using Netflix Party, now known as Teleparty. The chat features, along with being able to stream content simultaneously, allowed for connectivity and comfort. Humans naturally want to thrive and be educated, and as a result we stream content for entertainment and to better our knowledge. This could be watching a documentary on Netflix or a tutorial on YouTube.
 
 _Direct and Indirect Stakeholders_
 
@@ -72,18 +72,24 @@ _Problem Domain Citations_
 ### **Dataset**
 
 * The first data set provides us with the type of content Netflix offers for each country. It gives insight to all the directors, actors, and rankings of the tv show or movie. This data set has the knowledge to help us understand how vast and useful Netflix is.
-> Bansal, Shivam. “Netflix Movies and TV Shows.” Kaggle, 27 Sept. 2021, https://www.kaggle.com/datasets/shivamb/netflix-shows [kaggle.com].
 
 ![dataset 1](https://github.com/info201a-au2022/project-group-8-section-ae/blob/main/Dataset%201.png)
+> Bansal, Shivam. “Netflix Movies and TV Shows.” Kaggle, 27 Sept. 2021, https://www.kaggle.com/datasets/shivamb/netflix-shows [kaggle.com].
 
 * The author of this dataset, Shivam Bansal, in 2020 provided this dataset to help show how Netflix recently has been focusing on tv shows rather than movies. They also mention how to understand what films and tv shows are available in different countries and how the network analysis of the actors and directors can be seen through this data set. The author is not going to benefit financially from this dataset. The website the data set was on was validated and was a reputed website that provides all kinds of different data sets; therefore, the information was safe/secure. This can be a great source to branch off with. It can help provide information that we can use to further search for datasets.
 
 *  The second data set that we found are the different subscription fees that Netflix charges in each country. This is important to analyze as Netflix provides different movies for each country, so it is only deemed fair to charge differently across the world. This helps understand the economical aspect of Netflix and its impact on the world. It also gives us insight to how much of a profit Netlflix makes from a regular subscription versus a premium
-> Kanawattanachai, Prasert. “Netflix Subscription Fee in Different Countries.” Kaggle, 15 Jan. 2022, https://www.kaggle.com/datasets/prasertk/netflix-subscription-price-in-different-countries [kaggle.com].
 
 ![dataset 2](https://github.com/info201a-au2022/project-group-8-section-ae/blob/main/Dataset%202.png)
+> Kanawattanachai, Prasert. “Netflix Subscription Fee in Different Countries.” Kaggle, 15 Jan. 2022, https://www.kaggle.com/datasets/prasertk/netflix-subscription-price-in-different-countries [kaggle.com].
+
 * The author of this data set, Parsert Kanawattanachai collected this data to provide awareness to the fees of Netflix overall. This data set shows how Netflix can actually be cheaper in some countries (due to currency difference, and the difference in cost of living for some countries). There was no funding behind this dataset, however since it was found on Kaggle, a reputed website, therefore it is a valid source. It also updates yearly, meaning the data is fresh and current. Kaggle is a website that provides datasets for any searched term. There are many more different datasets, however these two found could potentially be the most useful starting point in the project.
 
+
+![dataset 3](https://github.com/info201a-au2022/project-group-8-section-ae/blob/main/Dataset%202.png)
+>Sheta, Prit. “Netflix Stock Data from 2002 to 2021.” Kaggle, 1 Oct. 2021, https://www.kaggle.com/datasets/pritsheta/netflix-stock-data-from-2002-to-2021.
+
+* This data relates to our project because it shows the financial aspect of Netflix. It provides the stock change from 2002 to 2021. It will help us analyze how Netflix became the number one streaming service. Prit Sheta, the author of this data set, collected this data to provide the statistics from Yahoo Finance. This data has credibility because of the website it was found on. It was rated 10.0 in usability, which means it has credentials.
 
 ### **Limitations**
 Possible limitations include restrictions on what analysis can be conducted from the available data. Here are more listed below:
@@ -97,3 +103,22 @@ Possible limitations include restrictions on what analysis can be conducted from
 ### **Expected implications**
 
   * Some expected implications we see happening are designers and policymakers changing the different frustrations people had to fit more of their needs and preferences. I also see policymakers finding a way to add more films that people enjoy watching or films that give the same feeling as they were describing and comparing different streaming services to Netflix to find their strengths and weaknesses to better improve Netflix over all. After hearing feedback and or a comment, we should aim to find a way that fits those needs and preferences. Even though Netflix is the number one streaming service in the world, there is always room for improvement. Staying at the top, in a positive way,  is always something a company wants. By taking this feedback and research, we are able to figure out how Netflix stays on top and will continue to do so.
+
+### **Acknowledgements**
+  Heena and Lasya would like to thank T-Mobile for the free Netflix subscription along with membership.
+
+  We would also like to thank all of our moms!!!! for giving birth to us.
+
+### **References**
+Bansal, Shivam. “Netflix Movies and TV Shows.” Kaggle, 27 Sept. 2021, https://www.kaggle.com/datasets/shivamb/netflix-shows [kaggle.com].
+Dhiman, Bharat, and Pawan Singh Malik. “Psychosocial Impact of Web Series and Streaming Content: A Study on Indian Youth.” Global Media Journal, Research and Reviews, 31 Dec. 2021, https://www.globalmediajournal.com/open-access/psychosocial-impact-of-web-series-and-streaming-content-a-study-on-indian-youth.php?aid=90530 [globalmediajournal.com].
+
+
+Li, Carl. “Strategy Case Study Series: Netflix Effect, Leading Disruptive Change in a Digital Economy.” LinkedIn, 12 Feb. 2020, https://www.linkedin.com/pulse/strategy-case-study-series-netflix-effect-leading-disruptive-carl-li/ [linkedin.com].
+
+
+“The True Climate Impact of Streaming.” About Netflix, https://about.netflix.com/en/news/the-true-climate-impact-of-streaming [about.netflix.com].
+
+Kanawattanachai, Prasert. “Netflix Subscription Fee in Different Countries.” Kaggle, 15 Jan. 2022,https://www.kaggle.com/datasets/prasertk/netflix-subscription-price-in-different-countries [kaggle.com].
+
+Sheta, Prit. “Netflix Stock Data from 2002 to 2021.” Kaggle, 1 Oct. 2021, https://www.kaggle.com/datasets/pritsheta/netflix-stock-data-from-2002-to-2021 [kaggle.com]. 
