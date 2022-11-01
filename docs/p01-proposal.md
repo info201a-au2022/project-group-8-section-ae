@@ -74,6 +74,7 @@ _Problem Domain Citations_
 * The first data set provides us with the type of content Netflix offers for each country. It gives insight to all the directors, actors, and rankings of the tv show or movie. This data set has the knowledge to help us understand how vast and useful Netflix is.
 > Bansal, Shivam. “Netflix Movies and TV Shows.” Kaggle, 27 Sept. 2021, https://www.kaggle.com/datasets/shivamb/netflix-shows [kaggle.com].
 
+[dataset 1](https://github.com/info201a-au2022/project-group-8-section-ae/blob/main/Dataset%201.png)
 
 * The author of this dataset, Shivam Bansal, in 2020 provided this dataset to help show how Netflix recently has been focusing on tv shows rather than movies. They also mention how to understand what films and tv shows are available in different countries and how the network analysis of the actors and directors can be seen through this data set. The author is not going to benefit financially from this dataset. The website the data set was on was validated and was a reputed website that provides all kinds of different data sets; therefore, the information was safe/secure. This can be a great source to branch off with. It can help provide information that we can use to further search for datasets.
 
@@ -92,6 +93,6 @@ Possible limitations include restrictions on what analysis can be conducted from
     * We want to help meet others' needs and preferences, but we are limited in the amount of impact we can make on others
   * Some data sets are private, and we cannot use those in our exploration
 
-  **Expected implications**
+### **Expected implications**
 
   * Some expected implications we see happening are designers and policymakers changing the different frustrations people had to fit more of their needs and preferences. I also see policymakers finding a way to add more films that people enjoy watching or films that give the same feeling as they were describing and comparing different streaming services to Netflix to find their strengths and weaknesses to better improve Netflix over all. After hearing feedback and or a comment, we should aim to find a way that fits those needs and preferences. Even though Netflix is the number one streaming service in the world, there is always room for improvement. Staying at the top, in a positive way,  is always something a company wants. By taking this feedback and research, we are able to figure out how Netflix stays on top and will continue to do so.
