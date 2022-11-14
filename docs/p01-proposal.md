@@ -71,3 +71,7 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 **What makes Netflix different from other streaming services?**
 
 * There are so many streaming services out there. Why do people choose Netflix? What makes them enjoy it over Hulu, Disney +, HBO Max, etc. This is all important to find out and motivates us to find out what it is that Netflix does that makes people happy.
+
+**Expected implications**
+
+* Some expected implications we see happening are designers and policymakers changing the different frustrations people had to fit more of their needs and preferences. I also see policymakers finding a way to add more films that people enjoy watching or films that give the same feeling as they were describing and comparing different streaming services to Netflix to find their strengths and weaknesses to better improve Netflix over all. After hearing feedback and or a comment, we should aim to find a way that fits those needs and preferences. Even though Netflix is the number one streaming service in the world, there is always room for improvement. Staying at the top, in a positive way,  is always something a company wants. By taking this feedback and research, we are able to figure out how Netflix stays on top and will continue to do so.

@@ -1,13 +1,28 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "Impact of Netflix on Human Connections"
+author: "Lasya Suravajhela, Medha Rawat, Heena Vahora"
+
+date: "11/09/2022"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+source("/Users/heenavahora/Documents/info201/project-group-8-section-ae/docs/Summary_info.r")
 ```
+# Dynamic Paragraph
+TEST `r summary_info$num_observations`
+Top_10_Netflix_weekly:
+`r top_10_netflix_weekly_dataset`
+
+In the first data set, we were able to find a list of films and TV shows that stayed the most viewed on Netflix in different countries through for multiple weeks. We found that in the film, `r movie_that_stayed_10_on_netflix_longest` was the film that stayed on Netflix's top 10 most viewed movie for the longest time and found `r show_that_stayed_10_on_netflix_longest` to be the TV show's that stayed on the top 10 most viewed for the longest time. 
+
+
+In the second data set, the data shows different Netflix's subscription fees in different countries, we found that `r country_with_lowest_fee_on_netflix_subscription` to have the lowest subscription fee of the basic package. But in `r country_with_highest_fee_on_netflix_subscription` they are the countries with the highest basic Netflix package fees.
+
+
+In the third data set, we are able to see the stocks of Netflix over the past 19 years, we could `r number_dates_collected_from_02_21` number of dates. With this information, we are able to find out why and how Netflix became the number one streaming platform.
+
 
 ## What is this file for?
 
