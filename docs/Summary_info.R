@@ -18,6 +18,8 @@ show_that_stayed_10_on_netflix_longest <- netflix_df %>%
   filter(category == "TV") %>%
   filter(cumulative_weeks_in_top_10 == max(cumulative_weeks_in_top_10, na.rm = TRUE)) %>%
   pull(show_title)
+show_that_stayed_10_on_netflix_longest <- unique(show_that_stayed_10_on_netflix_longest)
+
 
 # Country with lowest subscription fee
 country_with_lowest_fee_on_netflix_subscription <- netflix_fee %>%
@@ -31,7 +33,6 @@ country_with_highest_fee_on_netflix_subscription <- netflix_fee %>%
 
 # The number of dates from 2002 to 2021 calcated
 number_dates_collected_from_02_21 <- nrow(netflix_stock[as.Date(netflix_stock$Date) >= "2002-01-01" & as.Date(netflix_stock$Date) <= "2020-12-31" ,]) 
-  
   
 
   
