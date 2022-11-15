@@ -2,7 +2,7 @@
 =======
 ---
 title: "Impact of Netflix on Human Connections"
-author: "Lasya Suravajhela, Medha Rawat, Heena Vahora"
+author: "Lasya Suravajhela, Medha Rawat, Heena Vahora, Celina Yu"
 
 date: "11/09/2022"
 output: html_document
