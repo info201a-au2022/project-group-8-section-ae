@@ -1,3 +1,46 @@
+<<<<<<< HEAD
+=======
+---
+title: "Impact of Netflix on Human Connections"
+author: "Lasya Suravajhela, Medha Rawat, Heena Vahora"
+
+date: "11/09/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("/Users/heenavahora/Documents/info201/project-group-8-section-ae/docs/Summary_info.r")
+```
+# Dynamic Paragraph
+TEST `r summary_info$num_observations`
+Top_10_Netflix_weekly:
+`r top_10_netflix_weekly_dataset`
+
+In the first data set, we were able to find a list of films and TV shows that stayed the most viewed on Netflix in different countries through for multiple weeks. We found that in the film, `r movie_that_stayed_10_on_netflix_longest` was the film that stayed on Netflix's top 10 most viewed movie for the longest time and found `r show_that_stayed_10_on_netflix_longest` to be the TV show's that stayed on the top 10 most viewed for the longest time.
+
+
+In the second data set, the data shows different Netflix's subscription fees in different countries, we found that `r country_with_lowest_fee_on_netflix_subscription` to have the lowest subscription fee of the basic package. But in `r country_with_highest_fee_on_netflix_subscription` they are the countries with the highest basic Netflix package fees.
+
+
+In the third data set, we are able to see the stocks of Netflix over the past 19 years, we could `r number_dates_collected_from_02_21` number of dates. With this information, we are able to find out why and how Netflix became the number one streaming platform.
+
+
+## What is this file for?
+
+* This file will eventually become your project report for **P02: Exploratory Data Analysis**. Specifically, you will write rmarkdown to report your exploratory data analysis.
+
+* Please see Canvas for more details.
+
+## ACCESSING THE /source DIRECTORY
+### Example 1: Source some code and run a function
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("Netflix_Subscriber_Count.R")
+```
+## Chart 3: Bar Chart
+>>>>>>> 082f5e3c5ad898706cadeab63d658ac3eb15e23f
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -31,6 +74,7 @@ shows_plot_america
 netflix_barchart
 ```
 
+<<<<<<< HEAD
 ##### The purpose of the chart is to highlight the growth of Netflix’s subscriber count over the years. (Quarter 1 2013 - Quarter 3 2022) This shows an economic growth that the company follows which will help us further our scope of data that we have included in our project to ultimately support our claim that Netflix has had a major socioeconomic impact on the world today. It’s hard to disagree with this claim purely based on the sheer growth and volume of subscribers which we can see in the chart above. 
 
 ``` {r echo=FALSE}
@@ -43,6 +87,16 @@ film_plot_america
 # Aggregated Table
 
 ```{r echo=FALSE}
+=======
+_PURPOSE:_
+The purpose of the chart is to highlight the growth of Netflix’s subscriber count over the years. (Quarter 1 2013 - Quarter 3 2022) This shows an economic growth that the company follows which will help us further our scope of data that we have included in our project to ultimately support our claim that Netflix has had a major socioeconomic impact on the world today. It’s hard to disagree with this claim purely based off of the sheer growth and volume of subscribers which we can see in the chart above.
+
+
+
+# Chart  
+
+```{r}
+>>>>>>> 082f5e3c5ad898706cadeab63d658ac3eb15e23f
 library(tidyverse)
 library("dplyr")
 
@@ -51,20 +105,23 @@ netflix_df <- read.csv("all-weeks-countries.csv")
 View(netflix_df)
 
 
-aggregated_table <- netflix_df %>% 
-  filter(country_name == "United States") %>% 
+aggregated_table <- netflix_df %>%
+  filter(country_name == "United States") %>%
   #Only contain relevant information (i.e., only select some columns of interest)
   #Have well formatted (i.e., human readable) column names (so you'll probably have to change them)
-  select("Content type" = category, "Name" = show_title,  cumulative_weeks_in_top_10) %>% 
+  select("Content type" = category, "Name" = show_title,  cumulative_weeks_in_top_10) %>%
   #Be intentionally sorted in a meaningful way
   arrange("Top 10 week" = as.Date("Top 10 week", "%d-%m-%Y")) %>% #most recent
   #Round any quantitative values so they are displayed in a manner that isn't distracting <- n/a
   group_by(Name) %>% #so there are no duplicates
-  mutate(cumulative_weeks_in_top_10 = sum(cumulative_weeks_in_top_10)) %>% 
+  mutate(cumulative_weeks_in_top_10 = sum(cumulative_weeks_in_top_10)) %>%
   arrange(desc(cumulative_weeks_in_top_10))
 aggregated_table <- distinct(aggregated_table)
 View(aggregated_table)
 kable(aggregated_table)
 ```
+<<<<<<< HEAD
 
 ##### We included this table because it displays important information about the datasets we used. It reveals information about the most popular content on Netflix, such as which shows and films were in the Top 10 on Netflix and for how long.
+=======
+>>>>>>> 082f5e3c5ad898706cadeab63d658ac3eb15e23f
