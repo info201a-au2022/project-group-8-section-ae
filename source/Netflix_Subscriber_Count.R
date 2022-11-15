@@ -15,4 +15,4 @@ x <- factor(x, levels = x)
 netflix_barchart <- ggplot(data = netflix) +
   geom_col(mapping = aes(x = x, y = Number.of.Paid.Netflix.Subscribers..in.millions.)) +
   labs(x = "Netflix Quartely Reports 2013-2022", y = "Number of Paid Netflix Subscribers (in millions)")
-View(netflix_barchart)
+netflix_barchart
