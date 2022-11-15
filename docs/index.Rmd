@@ -1,25 +1,17 @@
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-
-``` library(tidyverse)
-library("dplyr") 
- 
-```{r setup, include=FALSE}
-knitr::opts_cunk$set(echo=TRUE)
+ ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 source("Netflix_Subscriber_Count.R")
 ``` 
 ## Chart 3: Bar Chart
+
 ```{r netflix_barchart, echo = FALSE}
 netflix_barchart
 ```
+
 _PURPOSE:_ 
 The purpose of the chart is to highlight the growth of Netflix’s subscriber count over the years. (Quarter 1 2013 - Quarter 3 2022) This shows an economic growth that the company follows which will help us further our scope of data that we have included in our project to ultimately support our claim that Netflix has had a major socioeconomic impact on the world today. It’s hard to disagree with this claim purely based off of the sheer growth and volume of subscribers which we can see in the chart above. 
 
-source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/tv_shows_graph.R")
 
-shows_plot_america
-```
   
 # Chart  
 ```{r}
@@ -46,4 +38,5 @@ aggregated_table <- distinct(aggregated_table)
 View(aggregated_table)
 kable(aggregated_table)
 ```
+
 
