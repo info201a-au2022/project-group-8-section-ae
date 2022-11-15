@@ -1,3 +1,4 @@
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
@@ -16,7 +17,9 @@ source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/Netfl
 source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/tv_shows_graph.R")
 source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/films_graph.R")
 
-```
+
+``` 
+
   
 ``` {r echo=FALSE}
 shows_plot_america
@@ -63,6 +66,5 @@ aggregated_table <- distinct(aggregated_table)
 View(aggregated_table)
 kable(aggregated_table)
 ```
-
 
 ##### We included this table because it displays important information about the datasets we used. It reveals information about the most popular content on Netflix, such as which shows and films were in the Top 10 on Netflix and for how long.
