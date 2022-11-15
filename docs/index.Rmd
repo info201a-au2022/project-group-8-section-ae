@@ -15,7 +15,7 @@ TEST `r summary_info$num_observations`
 Top_10_Netflix_weekly:
 `r top_10_netflix_weekly_dataset`
 
-In the first data set, we were able to find a list of films and TV shows that stayed the most viewed on Netflix in different countries through for multiple weeks. We found that in the film, `r movie_that_stayed_10_on_netflix_longest` was the film that stayed on Netflix's top 10 most viewed movie for the longest time and found `r show_that_stayed_10_on_netflix_longest` to be the TV show's that stayed on the top 10 most viewed for the longest time. 
+In the first data set, we were able to find a list of films and TV shows that stayed the most viewed on Netflix in different countries through for multiple weeks. We found that in the film, `r movie_that_stayed_10_on_netflix_longest` was the film that stayed on Netflix's top 10 most viewed movie for the longest time and found `r show_that_stayed_10_on_netflix_longest` to be the TV show's that stayed on the top 10 most viewed for the longest time.
 
 
 In the second data set, the data shows different Netflix's subscription fees in different countries, we found that `r country_with_lowest_fee_on_netflix_subscription` to have the lowest subscription fee of the basic package. But in `r country_with_highest_fee_on_netflix_subscription` they are the countries with the highest basic Netflix package fees.
@@ -33,6 +33,23 @@ In the third data set, we are able to see the stocks of Netflix over the past 19
 ## ACCESSING THE /source DIRECTORY
 ### Example 1: Source some code and run a function
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("Netflix_Subscriber_Count.R")
+```
+## Chart 3: Bar Chart
+
+```{r netflix_barchart, echo = FALSE}
+netflix_barchart
+```
+
+_PURPOSE:_
+The purpose of the chart is to highlight the growth of Netflix’s subscriber count over the years. (Quarter 1 2013 - Quarter 3 2022) This shows an economic growth that the company follows which will help us further our scope of data that we have included in our project to ultimately support our claim that Netflix has had a major socioeconomic impact on the world today. It’s hard to disagree with this claim purely based off of the sheer growth and volume of subscribers which we can see in the chart above.
+
+
+
+# Chart  
+
 ```{r}
 library(tidyverse)
 library("dplyr")
@@ -42,19 +59,18 @@ netflix_df <- read.csv("all-weeks-countries.csv")
 View(netflix_df)
 
 
-aggregated_table <- netflix_df %>% 
-  filter(country_name == "United States") %>% 
+aggregated_table <- netflix_df %>%
+  filter(country_name == "United States") %>%
   #Only contain relevant information (i.e., only select some columns of interest)
   #Have well formatted (i.e., human readable) column names (so you'll probably have to change them)
-  select("Content type" = category, "Name" = show_title,  cumulative_weeks_in_top_10) %>% 
+  select("Content type" = category, "Name" = show_title,  cumulative_weeks_in_top_10) %>%
   #Be intentionally sorted in a meaningful way
   arrange("Top 10 week" = as.Date("Top 10 week", "%d-%m-%Y")) %>% #most recent
   #Round any quantitative values so they are displayed in a manner that isn't distracting <- n/a
   group_by(Name) %>% #so there are no duplicates
-  mutate(cumulative_weeks_in_top_10 = sum(cumulative_weeks_in_top_10)) %>% 
+  mutate(cumulative_weeks_in_top_10 = sum(cumulative_weeks_in_top_10)) %>%
   arrange(desc(cumulative_weeks_in_top_10))
 aggregated_table <- distinct(aggregated_table)
 View(aggregated_table)
 kable(aggregated_table)
 ```
-

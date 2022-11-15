@@ -12,7 +12,8 @@ View(netflix)
 #creating plot for this specfic dataset from statista {https://www.statista.com/statistics/250934/quarterly-number-of-netflix-streaming-subscribers-worldwide/}
 x <- netflix$Netflix.Quarterly.Subscribers
 x <- factor(x, levels = x)
-ggplot(data = netflix) +
+netflix_barchart <- ggplot(data = netflix) +
   geom_col(mapping = aes(x = x, y = Number.of.Paid.Netflix.Subscribers..in.millions.)) +
-  labs(x = "Netflix Quartely Reports 2013-2022", y = "Number of Paid Netflix Subscribers (in millions)")
-
+  labs(x = "Netflix Quartely Reports 2013-2022", y = "Number of Paid Netflix Subscribers (in millions)")+
+  ggtitle("Quarterly Netflix Subscriber Count")
+netflix_barchart
