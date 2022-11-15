@@ -10,15 +10,19 @@ library(knitr)
 netflix_df <- read.csv("all-weeks-countries.csv")
 View(netflix_df)
 
+
 aggregated_table <- netflix_df %>% 
   filter(country_name == "United States") %>% 
   #Only contain relevant information (i.e., only select some columns of interest)
   #Have well formatted (i.e., human readable) column names (so you'll probably have to change them)
-  select("Content type" = category, "Name" = show_title, "Top 10 week" = week, "Weeks in Top 10" = cumulative_weeks_in_top_10) %>% 
+  select("Content type" = category, "Name" = show_title,  cumulative_weeks_in_top_10) %>% 
   #Be intentionally sorted in a meaningful way
-  arrange("Top 10 week" = as.Date("Top 10 week", "%d-%m-%Y")) #most recent
+  arrange("Top 10 week" = as.Date("Top 10 week", "%d-%m-%Y")) %>% #most recent
   #Round any quantitative values so they are displayed in a manner that isn't distracting <- n/a
-  
+  group_by(Name) %>% #so there are no duplicates
+  mutate(cumulative_weeks_in_top_10 = sum(cumulative_weeks_in_top_10)) %>% 
+  arrange(desc(cumulative_weeks_in_top_10))
+aggregated_table <- distinct(aggregated_table)
 View(aggregated_table)
 kable(aggregated_table)
 ```
