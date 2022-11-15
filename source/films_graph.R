@@ -20,14 +20,29 @@ films_america <- all_weeks_countries %>%
 film_plot_america <- films_america %>% 
   ggplot( aes(x= reorder(show_title, +weekly_rank), y=weekly_rank)) +
   geom_segment( aes(xend=show_title, yend=0)) +
-  geom_point( size=6, color="green") +
+  geom_point( size=6, color="orange") +
   coord_flip()+
   theme_bw() +
-  xlab("")
+  xlab("Names of Top Ten Films")+
+  ylab("Ranking throughout the week(1-10)")+
+  ggtitle("Top ten films in America currently")
 
 
 #viewing plot for america
 film_plot_america
 
 #This is a simple chart in which tells us the top ten shows
-#and then shows us the ranking it was. So 1st place 
+#and then shows us the ranking it was. So 1st place
+
+
+
+
+
+
+
+
+
+
+
+
+

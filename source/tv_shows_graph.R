@@ -19,8 +19,12 @@ shows_america <- all_weeks_countries %>%
 #creating the plot for shows in america
 shows_plot_america <- shows_america %>% 
   ggplot(aes(x= reorder(show_title, +weekly_rank) , y=weekly_rank)) +
-  geom_count(aes(size=cumulative_weeks_in_top_10))
- 
+  geom_count(aes(size = cumulative_weeks_in_top_10))+
+  coord_flip()+
+  xlab("Names of Top Ten Shows")+
+  ylab("Ranking throughout the week(1-10)")+
+  ggtitle("Top ten shows in America currently how long it was on the charts")+
+  labs(cumulative_weeks_in_top_10= "Cumulative weeks shows were in top ten")
 
 #viewing the plot
 shows_plot_america
