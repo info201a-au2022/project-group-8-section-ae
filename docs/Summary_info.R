@@ -35,17 +35,3 @@ country_with_highest_fee_on_netflix_subscription <- netflix_fee %>%
 number_dates_collected_from_02_21 <- nrow(netflix_stock[as.Date(netflix_stock$Date) >= "2002-01-01" & as.Date(netflix_stock$Date) <= "2020-12-31" ,]) 
   
 
-  
-  
-  
-  
-  
-  summary_info <- list() #values you are calculating
-summary_info$num_observations <- nrow(netflix_df)
-summary_info$observations_from_us <- netflix_df %>% 
-  filter(country_name == "United States")
-nrow()
-
-summary_info$some_max_value <- my_dataframe %>%
-  filter(some_var == max(some_var, na.rm = T)) %>%
-  select(some_label)
