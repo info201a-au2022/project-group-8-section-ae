@@ -13,7 +13,11 @@ library(knitr)
 
 source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/Netflix_Subscriber_Count.R")
 
-x
+netflix_barchart
+
+source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/tv_shows_graph.R")
+
+shows_plot_america
 ```
   
 # Chart  
