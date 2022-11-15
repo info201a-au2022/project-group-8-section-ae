@@ -5,7 +5,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
  
  
-```{r}
+```{r echo=FALSE}
 library(tidyverse)
 library("dplyr")
 
@@ -13,15 +13,33 @@ library(knitr)
 
 source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/Netflix_Subscriber_Count.R")
 
-netflix_barchart
-
 source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/tv_shows_graph.R")
+source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/films_graph.R")
 
-shows_plot_america
 ```
   
-# Chart  
-```{r}
+``` {r echo=FALSE}
+shows_plot_america
+```
+
+##### We decided to include the graph because like the graph above this one also gives the data for the most recent week in the data set. It Is important to understand how far the dataset spans. We then filtered the data set to show the rankings of the most popular tv shows in America, also with how consistent it has been on the leaderboard (cumulative weeks in top ten). This is important because the bigger the circle means it was a popular show for multiple weeks. It can link to other questions such as, how much money Netflix brings in because of these shows. 
+
+``` {r echo=FALSE}
+netflix_barchart
+```
+
+##### The purpose of the chart is to highlight the growth of Netflix’s subscriber count over the years. (Quarter 1 2013 - Quarter 3 2022) This shows an economic growth that the company follows which will help us further our scope of data that we have included in our project to ultimately support our claim that Netflix has had a major socioeconomic impact on the world today. It’s hard to disagree with this claim purely based on the sheer growth and volume of subscribers which we can see in the chart above. 
+
+``` {r echo=FALSE}
+film_plot_america
+```
+
+##### We decided to include the graph because it gives us data regarding the most recent week in the data set. With the most recent date we filtered to show the top ten films in the United States, and each film's ranking that week. It is important to understand how far the dataset goes and current statistics so that we can provide insight to people who want to know more about Netflix, or for people who just want to find a movie they would like to start.
+
+
+# Aggregated Table
+
+```{r echo=FALSE}
 library(tidyverse)
 library("dplyr")
 
@@ -46,3 +64,5 @@ View(aggregated_table)
 kable(aggregated_table)
 ```
 
+
+##### We included this table because it displays important information about the datasets we used. It reveals information about the most popular content on Netflix, such as which shows and films were in the Top 10 on Netflix and for how long.

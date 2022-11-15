@@ -23,7 +23,7 @@ shows_plot_america <- shows_america %>%
   coord_flip()+
   xlab("Names of Top Ten Shows")+
   ylab("Ranking throughout the week(1-10)")+
-  ggtitle("Recent Top ten shows in America How long it was on Charts")+ 
+  ggtitle("Recent Top Ten Shows in America and Time on Charts")+ 
   labs(cumulative_weeks_in_top_10= "Testing")
 #viewing the plot
 shows_plot_america

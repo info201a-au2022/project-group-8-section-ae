@@ -3,9 +3,8 @@ library(ggplot2)
 library(readxl)
 
 #reading and viewing the file
-all_weeks_countries <- read_excel("C:/Users/lasya/Documents/info201/project-group-8-section-ae/all-weeks-countries.xlsx")
-View(all_weeks_countries)
 
+all_weeks_countries <- read.csv("all-weeks-countries.csv")
 
 #finding a dataset that provides us top films in
 #the most recent week
