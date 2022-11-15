@@ -2,18 +2,17 @@
 knitr::opts_chunk$set(echo = FALSE)
 
 
-```
+``` library(tidyverse)
+library("dplyr") 
  
- 
-```{r}
-library(tidyverse)
-library("dplyr")
-
-library(knitr)
-
-source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/Netflix_Subscriber_Count.R")
-
+```{r setup, include=FALSE}
+knitr::opts_cunk$set(echo=TRUE)
+source("Netflix_Subscriber_Count.R")
+``` 
+##Chart 3: Bar Chart
+```{r netflix_barchart, echo = FALSE}
 netflix_barchart
+```
 
 source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/tv_shows_graph.R")
 
