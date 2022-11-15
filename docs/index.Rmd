@@ -1,7 +1,22 @@
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+
+```
+ 
+ 
+```{r}
+library(tidyverse)
+library("dplyr")
+
+library(knitr)
+
+source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/Netflix_Subscriber_Count.R")
+
+x
 ```
   
+# Chart  
 ```{r}
 library(tidyverse)
 library("dplyr")
