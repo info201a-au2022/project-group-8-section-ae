@@ -2,23 +2,22 @@ library(dplyr)
 library(ggplot2)
 library(readxl)
 
-
-all_weeks_countries <- read.csv("all-weeks-countries.csv")
+all_weeks_countries <- read.table("all-weeks-countries.csv", header = TRUE, sep = ",", fill = TRUE)
 # View(all_weeks_countries)
 
-
+  
 #Find a dataframe that will find the top shows 
 #in the United States till date 
 shows_america <- all_weeks_countries %>% 
-  filter(week == max(week)) %>% 
+  # filter(week == max(week, na.rm = FALSE)) %>% 
   filter(category == "TV") %>% 
   filter(country_name == "United States") %>% 
   select(show_title,cumulative_weeks_in_top_10,weekly_rank)
-
+shows_america
 
 #creating the plot for shows in america
 shows_plot_america <- shows_america %>% 
-  ggplot(aes(x= reorder(show_title, +weekly_rank) , y=weekly_rank)) +
+  ggplot(aes(x= reorder(show_title, weekly_rank) , y=weekly_rank)) +
   geom_count(aes(size = cumulative_weeks_in_top_10))+
   coord_flip()+
   xlab("Names of Top Ten Shows")+

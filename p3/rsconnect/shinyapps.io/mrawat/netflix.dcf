@@ -1,0 +1,13 @@
+name: netflix
+title: netflix
+username:
+account: mrawat
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7789200
+bundleId: 6606236
+url: https://mrawat.shinyapps.io/netflix/
+when: 1670438556.50099
+lastSyncTime: 1670438556.501
+asMultiple: FALSE
+asStatic: FALSE

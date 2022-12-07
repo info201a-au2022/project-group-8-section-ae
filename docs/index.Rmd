@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Impact of Netflix on Human Connections"
 author: "Lasya Suravajhela, Medha Rawat, Heena Vahora"
@@ -9,8 +7,8 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-source("/Users/heenavahora/Documents/info201/project-group-8-section-ae/docs/Summary_info.r")
+knitr::opts_chunk$set(echo = FALSE)
+source("/Users/medha/Documents/info201/project-group-8-section-ae/docs/Summary_info.r")
 ```
 # Dynamic Paragraph
 TEST `r summary_info$num_observations`
@@ -35,32 +33,14 @@ In the third data set, we are able to see the stocks of Netflix over the past 19
 ## ACCESSING THE /source DIRECTORY
 ### Example 1: Source some code and run a function
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-source("Netflix_Subscriber_Count.R")
-```
-## Chart 3: Bar Chart
->>>>>>> 082f5e3c5ad898706cadeab63d658ac3eb15e23f
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-
-```
- 
  
 ```{r echo=FALSE}
 library(tidyverse)
 library("dplyr")
-
 library(knitr)
-
 source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/Netflix_Subscriber_Count.R")
-
 source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/tv_shows_graph.R")
 source("C:/Users/medha/Documents/info201/project-group-8-section-ae/source/films_graph.R")
-
-
 ``` 
 
   
@@ -74,7 +54,6 @@ shows_plot_america
 netflix_barchart
 ```
 
-<<<<<<< HEAD
 ##### The purpose of the chart is to highlight the growth of Netflix’s subscriber count over the years. (Quarter 1 2013 - Quarter 3 2022) This shows an economic growth that the company follows which will help us further our scope of data that we have included in our project to ultimately support our claim that Netflix has had a major socioeconomic impact on the world today. It’s hard to disagree with this claim purely based on the sheer growth and volume of subscribers which we can see in the chart above. 
 
 ``` {r echo=FALSE}
@@ -83,28 +62,15 @@ film_plot_america
 
 ##### We decided to include the graph because it gives us data regarding the most recent week in the data set. With the most recent date we filtered to show the top ten films in the United States, and each film's ranking that week. It is important to understand how far the dataset goes and current statistics so that we can provide insight to people who want to know more about Netflix, or for people who just want to find a movie they would like to start.
 
-
 # Aggregated Table
 
 ```{r echo=FALSE}
-=======
-_PURPOSE:_
-The purpose of the chart is to highlight the growth of Netflix’s subscriber count over the years. (Quarter 1 2013 - Quarter 3 2022) This shows an economic growth that the company follows which will help us further our scope of data that we have included in our project to ultimately support our claim that Netflix has had a major socioeconomic impact on the world today. It’s hard to disagree with this claim purely based off of the sheer growth and volume of subscribers which we can see in the chart above.
 
 
-
-# Chart  
-
-```{r}
->>>>>>> 082f5e3c5ad898706cadeab63d658ac3eb15e23f
 library(tidyverse)
 library("dplyr")
-
 library(knitr)
 netflix_df <- read.csv("all-weeks-countries.csv")
-View(netflix_df)
-
-
 aggregated_table <- netflix_df %>%
   filter(country_name == "United States") %>%
   #Only contain relevant information (i.e., only select some columns of interest)
@@ -120,8 +86,7 @@ aggregated_table <- distinct(aggregated_table)
 View(aggregated_table)
 kable(aggregated_table)
 ```
-<<<<<<< HEAD
+
 
 ##### We included this table because it displays important information about the datasets we used. It reveals information about the most popular content on Netflix, such as which shows and films were in the Top 10 on Netflix and for how long.
-=======
->>>>>>> 082f5e3c5ad898706cadeab63d658ac3eb15e23f
+
