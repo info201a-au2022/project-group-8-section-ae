@@ -16,7 +16,7 @@ library(ggplot2)
 # all_weeks_countries <- read.table("all-weeks-countries.csv", header = TRUE, sep = ",", fill = TRUE)
 # View(all_weeks_countries)
 all_weeks_countries <- read.csv("all-weeks-countries.csv")
-netflix <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-8-section-ae/main/netflix.csv")
+netflix <- read.csv("netflix.csv")
 temp5 <- netflix$Number.of.Paid.Netflix.Subscribers..in.millions. 
 temp6 <- c(1:39)
 
